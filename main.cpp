@@ -5,13 +5,13 @@
 using namespace System;
 using namespace System::Windows::Forms;
 
-#include "GameForm.h"
+#include "MainMenuForm.h"
 
 [STAThreadAttribute]
 int main(array<String^>^ args)
 {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    Application::Run(gcnew GameForm());
+    Application::Run(gcnew MainMenuForm());
     return 0;
 }
